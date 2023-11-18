@@ -118,6 +118,8 @@ function createTimer(time_in_seconds) {
       timerdiv.innerHTML = "";
       end_msg.appendChild(deletebutton);
       timerdiv.appendChild(end_msg);
+      const timerAudio = document.getElementById("timerAudio");
+      timerAudio.play();
     }else{
         timerdiv.appendChild(stopButton);
     }
