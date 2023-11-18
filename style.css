@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.firstlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1728px;
+  height: 1117px;
+  top: 539px;
+  left: -769px;
+  background: #1d1d23;
+}
+
+.headtop {
+  width: 328px;
+  height: 42px;
+  top: 47px;
+  left: 700px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-align: center;
+}
+.settimer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 849px;
+  height: 132px;
+  top: 132px;
+  left: 438px;
+  border-radius: 20px;
+  background: #34344a;
+}
+.set_time {
+  width: 142px;
+  height: 28px;
+  top: 186px;
+  left: 471px;
+  margin-left: 40px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.setbtn {
+  width: 124px;
+  height: 52px;
+  top: 174px;
+  left: 1115px;
+  margin-right: 40px;
+  border-radius: 26px;
+  background: #f0f757;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.hms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 309px;
+  height: 56px;
+  top: 170px;
+  left: 699px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #ffffff;
+}
+.input {
+  width: 103px;
+  height: 56px;
+  top: 170px;
+  left: 699px;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  background: #34344a;
+  color: #ffffff;
+}
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+input::placeholder {
+  color: white;
+  font-size: 30px;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.infoabout {
+  width: 413px;
+  height: 66px;
+  top: 313px;
+  left: 657px;
+  border-radius: 50px;
+  margin-top: 30px;
+  background: #39393e;
+}
+.crnttime {
+  width: 321.37px;
+  height: 28px;
+  top: 332px;
+  left: 702px;
+  padding-top: 17px;
+  padding-left: 50px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.colon {
+  margin-bottom: 11px;
+}
+
+#hours::-webkit-outer-spin-button,
+#hours::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+#hours:valid {
+  font-size: 24px;
+}
+#minutes::-webkit-outer-spin-button,
+#minutes::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+#minutes:valid {
+  font-size: 24px;
+}
+#seconds::-webkit-outer-spin-button,
+#seconds::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+#seconds:valid {
+  font-size: 24px;
+}
+
+.active-timers-list {
+  width: 849px;
+  height: 132px;
+  top: 428px;
+  left: 438px;
+  border-radius: 20px;
+  background: #34344a;
+}
+
+#active-timers-section {
+  width: 849px;
+  height: 132px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  content: center;
+  border-radius: 20px;
+  background: #1d1d23;
+  color: white;
+  align-items: center;
+}
+
+#active-timers-section div {
+  width: 849px;
+  height: 132px;
+  margin: 20px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #34344a;
+  width: 100%; /* Set the width of the timer div to 100% to match the container */
+  height: 100%;
+}
+
+#active-timers-section div span {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 309px;
+  margin: 20px;
+  display: inline;
+  
+}
+
+button {
+  width: 124px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: #f0f757;
+}
+#active-timers-section div div {
+    display: flex;
+    width: 309px;
+    color: #34344a;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline;
+    background: #f0f757;
+  }
+
+  #active-timers-section div div button{
+    background: #34344a;
+    color: white;
+    margin-left: 400px;
+  }
+
+  #active-timers-section div button{
+    margin-left: 190px;
+  }
+  
